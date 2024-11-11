@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: rgb(19, 19, 19);
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+}
+
+.products-header {
+    text-align: center;
+}
+
+.products-header input {
+    padding: 10px;
+    width: 50%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #2b2b2b;
+    color: #ccc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.product-block {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-details {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+}
+
+.product-details span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.product-details button {
+    background: #3745b5;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 5px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-details button:hover {
+    background: #263181;
+}
+
+.add-product-block {
+    background: #2b2b2b;
+    color: #ccc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-product-block:hover {
+    background: #3c3c3c;
+}
+
+.product-form {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.product-form h2 {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.product-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-form form div {
+    margin-bottom: 15px;
+}
+
+.product-form label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.product-form input,
+.product-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #2b2b2b;
+    color: #ccc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-form input[type="file"] {
+    padding: 3px;
+}
+
+.product-form button {
+    background: #3745b5;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.product-form button:hover {
+    background: #263181;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination button {
+    background: #3745b5;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pagination button:hover {
+    background: #263181;
+}
+
+.orders-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.orders-section h2 {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.orders-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-block {
+    background-color: #2b2b2b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.order-block p {
+    margin: 5px 0;
+    color: #ccc;
+}

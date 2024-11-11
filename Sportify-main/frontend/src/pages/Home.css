@@ -1,0 +1,55 @@
+/* Ensure the container takes up the full height of the viewport */
+.home-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 81.7vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  /* Overlay to hold the content */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.88);
+    backdrop-filter: blur(5px);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    color: white;
+  }
+  
+  /* Style for the title image */
+  .title-image {
+    width: 700px;
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+  
+  /* Style for the description text */
+  .description {
+    margin-bottom: 20px;
+    width: 700px;
+    line-height: 1.5;
+  }
+  
+  /* Style for the button */
+  .products-button {
+    padding: 10px 20px;
+    background-color: #3745B5;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .products-button:hover {
+    background-color: #ddd;
+    background-color: #232d77;
+  }
+  
