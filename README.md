@@ -70,9 +70,7 @@ This tech stack enables Sportify to be a dynamic, interactive, and user-friendly
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Watch Demo Video](https://drive.google.com/file/d/1deLqfDUzdvcVLy9MdEwr-eppW6nBKuCo/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
